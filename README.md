@@ -1,16 +1,108 @@
-# React + Vite
+# 🛒 FreshCart E-Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional e-commerce web application built with React.js, featuring product browsing, cart management, and order processing.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://freshcart-ecommerce-nu.vercel.app/](https://freshcart-ecommerce-nu.vercel.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔐 **Authentication** — Register & Login with JWT token management
+- 🏠 **Home Page** — Browse all products with category sorting
+- 🛍️ **Product Details** — View detailed product information
+- 🏷️ **Brands** — Browse products by brand
+- 🛒 **Cart Management** — Add, remove, and update product quantities
+- 💳 **Payment** — Support for Cash and Credit Card payments via Stripe
+- 📦 **Order History** — View all previous orders with full details
+- 👤 **User Profile** — View account information
+- 🔒 **Protected Routes** — Authenticated-only pages
+- 📱 **Responsive Design** — Fully responsive across all devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| React.js | UI Framework |
+| React Router DOM | Client-side routing |
+| Axios | HTTP requests |
+| Context API | State management (Cart) |
+| Formik | Form handling |
+| JWT Decode | Token decoding |
+| Tailwind CSS | Styling |
+| Vite | Build tool |
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── assets/
+├── Components/
+│   ├── AllOrders/
+│   ├── Brands/
+│   ├── BrandProducts/
+│   ├── Cart/
+│   ├── Home/
+│   ├── Layout/
+│   ├── LoadingScreen/
+│   ├── Login/
+│   ├── Navbar/
+│   ├── Payment/
+│   ├── ProductDetails/
+│   ├── Profile/
+│   ├── Register/
+│   └── Slider/
+├── Context/
+│   └── CartContext.jsx
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js >= 16
+- npm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Abdallah-Mahdy-eg/freshcart-ecommerce.git
+
+# Navigate to the project directory
+cd freshcart-ecommerce
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🔗 API
+
+This project uses the [Route Academy E-Commerce API](https://ecommerce.routemisr.com/).
+
+---
+
+## 👨‍💻 Author
+
+**Abdallah Mahdy**
+- GitHub: [@Abdallah-Mahdy-eg](https://github.com/Abdallah-Mahdy-eg)
